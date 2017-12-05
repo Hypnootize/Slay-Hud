@@ -6,48 +6,12 @@
 		"command" "engine con_enable 1; engine showconsole; clear; toggleconsole; echo Slayer. Thanks to Quartz and Sir Villeta, creators of HUDAS Iscariote. Broesel, creator of Broesels HUD. f_blue, current editor of Broesels HUD. Cirlo, redd0t, current editors of HUDAS Iscariote. Deazy, for assisting and providing guidance on how to edit HUDs. Co0kie, Background Images. Boob Lee, Interpreter, tester"
 		"OnlyAtMenu" "1"
 	}
-	"QuickplayButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"OnlyAtMenu" "1"
-		"tooltip" "Casual"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"OnlyAtMenu" "1"
-		"tooltip" "Casual"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Play MvM" 
-		"command" "play_mvm"
-		"OnlyAtMenu" "1"
-		"tooltip" "MvM"
-	}
-    "PlayCompButton"
-    {
-        "label" "Competitive" 
-        "command" "play_competitive"
-        "OnlyAtMenu" "1"
- 		"tooltip" "Play Competitive"
-   }	
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
-		"OnlyAtMenu" "1"
 		"tooltip" "Browse Servers"
 	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"OnlyInGame" "1"
-		"tooltip" "Browse Servers"
-	}
 	"ReplayBrowserButton"
 	{
 		"label" "Replays"
@@ -101,10 +65,10 @@
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
+		"label" "Create"
 		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "Create Server"
+		"tooltip" "Create a Server"
+		"OnlyAtMenu" "0"
 	}
 	"GeneralStoreButton"
 	{
@@ -121,13 +85,6 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"tooltip" "Resume"
-	}
 	"DisconnectButton"
 	{
 		"label" "Ragequit"
@@ -139,7 +96,7 @@
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyAtMenu" "0"
+		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
@@ -155,7 +112,7 @@
 	{
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
-		"OnlyAtMenu" "0"
+		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}
