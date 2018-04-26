@@ -198,9 +198,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"1"
+			"xpos"			"65"
 			"ypos"			"5"
-			"wide"			"f0"
+			"wide"			"120"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -223,13 +223,13 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"1"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
 			"ypos"			"25"
-			"wide"			"f0"
+			"wide"			"120"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -237,7 +237,7 @@
 			"font"			"DemiBold14"
 			"fgcolor_override"	"255 255 255 255"
 			"textAlignment"	"north-east"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -249,13 +249,61 @@
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"north-west"
 			}
+
+			"fonts"
+			{
+				"0"		"DemiBold14"
+				"1"		"DemiBold14"
+				"2"		"DemiBold14"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"25"
+			"wide"			"120"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"DemiBold14"
+			"fgcolor_override"	"255 255 255 255"
+			"textAlignment"	"north-east"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"			"f0"
+				"font"			"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"DemiBold14"
+				"1"		"DemiBold14"
+				"2"		"DemiBold14"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
+			}
 		}
 
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"142"
+			"xpos"			"67"
 			"ypos"			"0"
 			"wide"			"120"
 			"tall"			"f0"
