@@ -668,6 +668,37 @@
 			"wide"			"591"
 		}
 	}
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"Medium9"
+		"labelText"		"%mapname%"
+		"textAlignment"	"center"
+		"xpos"			"c-89"
+		"xpos_minmode"	"c-280"
+		"ypos"			"r98"
+		"ypos_minmode"	"r13"
+		"zpos"			"3"
+		"wide"			"178"
+		"wide_minmode"	"110"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"234 234 234 255"
+
+		if_mvm
+		{
+			"font"			"Medium9"
+			"xpos"			"c-280"
+			"ypos"			"r132"
+			"wide"			"178"
+			"visible"		"1"
+		}	
+	}
+		
 	"VerticalLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -1882,71 +1913,6 @@
 				"tall"		"25"
 			}
 		}
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"Medium9"
-			"font_minmode"		"ScoreboardVerySmall"
-			"labelText"		"%mapname%"
-			"textAlignment"		"center"
-			"xpos"			"c-255"
-			"xpos_minmode"		"c152"
-			"ypos"			"r132"
-			"ypos_minmode"		"r165"
-			"zpos"			"3"
-			"wide"			"178"
-			"wide_minmode"		"110"
-			"tall"			"15"
-			"tall_minmode"		"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"fgcolor"		"32 32 32 255"
-
-			if_mvm
-			{
-				"font"			"Medium9"
-				"xpos"			"c-280"
-				"ypos"			"r132"
-				"wide"			"178"
-				"visible"		"1"
-			}	
-		}
-		"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"			"Medium9"
-			"font_minmode"		"ScoreboardVerySmall"
-			"labelText"		"%gametype%"
-			"textAlignment"		"center"
-			"xpos"			"c-255"
-			"xpos_minmode"		"c152"
-			"ypos"			"r122"
-			"ypos_minmode"		"r158"
-			"zpos"			"3"
-			"wide"			"178"
-			"wide_minmode"		"110"
-			"tall"			"15"
-			"tall_minmode"		"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"fgcolor"		"32 32 32 255"
-
-			if_mvm
-			{
-				"font"			"Medium9"
-				"xpos"			"c-280"
-				"ypos"			"r121"
-				"wide"			"178"
-				"visible"		"1"
-			}
-		}
-		
 		"Kills"
 		{
 			"ControlName"							"CExLabel"
