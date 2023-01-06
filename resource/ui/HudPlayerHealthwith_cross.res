@@ -91,28 +91,7 @@
 //#END OF PULSING CROSSHAIRS#
 //###########################
 //
-    "mainBackground"
-    {
-        "ControlName"       "ScalableImagePanel"
-        "fieldName"     "mainBackground"
-        "xpos"      "0"
-        "ypos"      "10"
-        "zpos"      "2"
-        "wide"      "250"
-        "tall"      "250"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "image"         "replay/thumbnails/hud_test"
-        
-        "src_corner_height" "0"
-        "src_corner_width"  "0"
-        "draw_corner_width" "0" 
-        "draw_corner_height" "0"    
-        "scaleImage"        "1"
-    }
-    "HPBorderPanel1"
+   "HPBorderPanel1"
     {
         "ControlName"       "CTFImagePanel"
         "fieldName"     "HPBackgroundPanel1"
